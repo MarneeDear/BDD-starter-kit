@@ -1,0 +1,43 @@
+Feature: showing off behave # features\behave.feature:1
+
+  Scenario: run a simple test        # features\behave.feature:3
+    Given we have behave installed   # steps\behavesteps.py:5
+      Traceback (most recent call last):
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\selenium\webdriver\common\service.py", line 74, in start
+          stdout=self.log_file, stderr=self.log_file)
+        File "c:\python36\Lib\subprocess.py", line 707, in __init__
+          restore_signals, start_new_session)
+        File "c:\python36\Lib\subprocess.py", line 990, in _execute_child
+          startupinfo)
+      FileNotFoundError: [WinError 2] The system cannot find the file specified
+      
+      During handling of the above exception, another exception occurred:
+      
+      Traceback (most recent call last):
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\behave\model.py", line 1456, in run
+          match.run(runner.context)
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\behave\model.py", line 1903, in run
+          self.func(context, *args, **kwargs)
+        File "steps\behavesteps.py", line 9, in step_impl
+          browser = Browser(driver_name=driver_name)
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\splinter\browser.py", line 63, in Browser
+          return driver(*args, **kwargs)
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\splinter\driver\webdriver\firefox.py", line 48, in __init__
+          timeout=timeout)
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\selenium\webdriver\firefox\webdriver.py", line 142, in __init__
+          self.service.start()
+        File "c:\users\marnee~1\dropbox\comit\bdd\bdd_env\lib\site-packages\selenium\webdriver\common\service.py", line 81, in start
+          os.path.basename(self.path), self.start_error_message)
+      selenium.common.exceptions.WebDriverException: Message: 'geckodriver' executable needs to be in PATH.
+
+    When we implement a test         # None
+    Then behave will test it for us! # None
+
+
+Failing scenarios:
+  features\behave.feature:3  run a simple test
+
+0 features passed, 1 failed, 0 skipped
+0 scenarios passed, 1 failed, 0 skipped
+0 steps passed, 1 failed, 2 skipped, 0 undefined
+Took 0m0.074s

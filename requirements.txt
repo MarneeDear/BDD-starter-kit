@@ -1,0 +1,14 @@
+behave==1.2.5
+behaving==1.5.6
+parse==1.8.2
+parse-type==0.3.4
+selenium==3.4.3
+six==1.10.0
+splinter==0.7.5
+coconut==1.2.2
+prompt-toolkit==1.0.13
+Pygments==2.2.0
+pyparsing==2.1.10
+six==1.10.0
+virtualenv==15.1.0
+wcwidth==0.1.7
