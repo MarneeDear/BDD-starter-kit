@@ -54,5 +54,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-# ignore virtual environment
+venv/*
 bdd_env/*
