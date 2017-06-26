@@ -39,3 +39,7 @@ TODO I need to put in commands that will work on Windows.
 3. Activate your virutal environment
 4. Change directories into behaving_example
 5. Do this command : ```./bin/behave ./features```
+
+**Run the splinter/behave tests:**
+
+TODO
