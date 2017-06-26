@@ -13,7 +13,7 @@ To get started:
 4. Create a virtual environment. Follow the link above if you don't know how to do that. I like to put my virtual environment folders in the same folder as my project.
 5. Clone this repo
 6. Activate your virtualenv
-8. pip install of the requirements (this will install them in your activated virtual environment only)
+8. pip install all of the requirements (this will install them in your activated virtual environment only)
 
     a. ```pip install -r requirements.txt```
 
