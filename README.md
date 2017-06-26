@@ -3,7 +3,7 @@ Getting started with BDD and automated UI testing.
 
 This project has examples of using both splinter and [behaving](https://github.com/ggozad/behaving). 
 
-To get started:
+**To get started:**
 
 1. Install Python. Either v 2.7 or 3+ will work
 2. Install Python pip (Google to find instructions for your environment). You might already have it installed. On the command line try ```pip```. You should see the help.
@@ -19,18 +19,18 @@ To get started:
 
 You now have a virtual environment that you can use to run the sample tests, but you will also need the browser drivers. The default is the gecko driver for Firefox so you will need to install that and make sure it is in your path. 
 
-On Windows:
+**On Windows:**
 
 1. Go [here](https://github.com/mozilla/geckodriver/releases) and download the lasts geckdriver for you system, probably something like this ``geckodriver-vx.xx.0-win64.zip``
 2. Extact the executable (geckdriver.exe) in the zip.
 3. Put the executable somewhere convenient. I put mine in c:\seleniumdrivers\geckodriver.exe
 4. Add this path to your Path environment variable. Probably best to use the User variables, but system is good too. If you don't know how to do this go [here](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path). BE VERY CAREFUL!
 
-Other systems:
+**Other systems:**
 
 Please ask Google because I am not sure. I will try this on the Ubuntu sub-system at some point and fill in these instructions.
 
-Run the behaving tests:
+**Run the behaving tests:**
 
 TODO I need to put in commands that will work on Windows.
 
