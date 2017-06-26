@@ -10,8 +10,8 @@ This project has examples of using both splinter and [behaving](https://github.c
 3. Install [virtualenv](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/)
   
     a. ```pip install virtualenv```
-4. Create a virtual environment. Follow the link above if you don't know how to do that. I like to put my virtual environment folders in the same folder as my project.
-5. Clone this repo
+4. Clone this repo
+5. Create a virtual environment. Follow the link above if you don't know how to do that. I like to put my virtual environment folders in the same folder as my project. So you might like to go into the folder where you clone this repo and do it there.
 6. Activate your virtualenv
 8. pip install all of the requirements (this will install them in your activated virtual environment only)
 
