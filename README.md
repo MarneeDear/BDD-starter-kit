@@ -13,7 +13,9 @@ To get started:
 4. Create a virtual environment. Follow the link above if you don't know how to do that. I like to put my virtual environment folders in the same folder as my project.
 5. Clone this repo
 6. Activate your virtualenv
-7. ```pip install -r requirements.txt```
+8. pip install of the requirements (this will install them in your activated virtual environment only)
+
+    a. ```pip install -r requirements.txt```
 
 You now have a virtual environment that you can use to run the sample tests, but you will also need the browser drivers. The default is the gecko driver for Firefox so you will need to install that and make sure it is in your path. 
 
@@ -21,7 +23,7 @@ On Windows:
 
 1. Go [here](https://github.com/mozilla/geckodriver/releases) and download the lasts geckdriver for you system, probably something like this ``geckodriver-vx.xx.0-win64.zip``
 2. Extact the executable (geckdriver.exe) in the zip.
-3. Put it somewhere. I put mine in c:\seleniumdrivers\geckodriver.exe
+3. Put the executable somewhere convenient. I put mine in c:\seleniumdrivers\geckodriver.exe
 4. Add this path to your Path environment variable. Probably best to use the User variables, but system is good too. If you don't know how to do this go [here](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path). BE VERY CAREFUL!
 
 Other systems:
