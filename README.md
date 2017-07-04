@@ -1,4 +1,4 @@
-# bdd_starter
+# BDD Starter Kit
 Getting started with BDD and automated UI testing.
 
 This project has examples of using both [splinter](https://github.com/cobrateam/splinter) and [behaving](https://github.com/ggozad/behaving). 
