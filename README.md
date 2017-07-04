@@ -21,7 +21,7 @@ You now have a virtual environment that you can use to run the sample tests, but
 
 **On Windows:**
 
-1. Go [here](https://github.com/mozilla/geckodriver/releases) and download the lasts geckdriver for you system, probably something like this ``geckodriver-vx.xx.0-win64.zip``
+1. Go [here](https://github.com/mozilla/geckodriver/releases) and download the latest geckdriver for you system, probably something like this ``geckodriver-vx.xx.0-win64.zip``
 2. Extact the executable (geckdriver.exe) in the zip.
 3. Put the executable somewhere convenient. I put mine in c:\seleniumdrivers\geckodriver.exe
 4. Add this path to your Path environment variable. Probably best to use the User variables, but system is good too. If you don't know how to do this go [here](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path). BE VERY CAREFUL!
@@ -32,14 +32,20 @@ Please ask Google because I am not sure. I will try this on the Ubuntu sub-syste
 
 **Run the behaving tests:**
 
-TODO I need to put in commands that will work on Windows.
+These commands assume you are using bash. If you are on Windows you can install and use git-bash, which comes with the git Windows install.
 
 1. Close your Firefox or this will not go so good.
 2. Using the command line go to where you cloned the repo
 3. Activate your virutal environment
 4. Change directories into behaving_example
-5. Do this command : ```./bin/behave ./features```
+5. Do this command in bash. 
+  1. ```./bin/behave ./features```
 
 **Run the splinter/behave tests:**
 
-TODO
+1. Close your Firefox or this will not go so good.
+2. Using the command line go to where you cloned the repo
+3. Activate your virutal environment
+4. Change directories into splinter_example
+5. Do this command in bash. 
+  1. ```./bin/behave ./features```
