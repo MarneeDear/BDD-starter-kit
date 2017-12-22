@@ -7,7 +7,7 @@ This project has examples of using both [splinter](https://github.com/cobrateam/
 
 1. Install Python. Either v 2.7 or 3+ will work
 2. Install Python pip (Google to find instructions for your environment). You might already have it installed. On the command line try ```pip```. You should see the help.
-3. Install [virtualenv](http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/)
+3. Install [virtualenv](https://virtualenv.pypa.io/en/stable/userguide)
   
     a. ```pip install virtualenv```
 4. Clone this repo
