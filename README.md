@@ -23,7 +23,7 @@ You now have a virtual environment that you can use to run the sample tests, but
 
 1. Go [here](https://github.com/mozilla/geckodriver/releases) and download the latest geckodriver for you system, probably something like this ``geckodriver-vx.xx.0-win64.zip``
 2. Extact the executable (geckdriver.exe) in the zip.
-3. Put the executable somewhere convenient. I put mine in c:\seleniumdrivers\geckodriver.exe
+3. Put the executable somewhere convenient. I put mine in `c:\seleniumdrivers\geckodriver.exe`
 4. Add this path to your Path environment variable. Probably best to use the User variables, but system is good too. If you don't know how to do this go [here](http://windowsitpro.com/systems-management/how-can-i-add-new-folder-my-system-path). BE VERY CAREFUL!
 
 **Other systems:**
